@@ -11,6 +11,8 @@
 2. react-icons
 3. axios
 4. eslintrc
+5. CSS
+6. JavaScript
 
 ## Estructura de carpetas del proyecto
 1. Componentes
@@ -45,3 +47,7 @@
 
 4. Context
   > En la carpeta **Context** manejo el estado global del sitio, en esta carpeta hago la petición a la **URL**, hago los filtros de los links más repetidos y el state para mostrar los **artículos** en la web.
+
+## CSS
+
+> El codigo **CSS** en el sitio web esta maquetado de manera **mobile-first**
