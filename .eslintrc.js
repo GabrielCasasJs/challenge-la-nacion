@@ -27,5 +27,6 @@ module.exports = {
     'react/jsx-no-constructed-context-values': 'off',
     'max-len': 'off',
     'no-console': 'off',
+    'array-callback-return': 'off',
   },
 };

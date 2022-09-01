@@ -51,3 +51,9 @@
 ## CSS
 
 > El codigo **CSS** en el sitio web esta maquetado de manera **mobile-first**
+
+# EJERCICIO 2 (FizzBuzz)
+  > El ejercicio se encuentra ubicado en los archivos principales del proyecto al lado del archivo README, el archivo del ejercicio de llama **script.js**
+
+# EJERCICIO DE 2 preguntas
+ > Las respuestas a esas preguntas estan adentro del archivo **script js** con comentarios!
