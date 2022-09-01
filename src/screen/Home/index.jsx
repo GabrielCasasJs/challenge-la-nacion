@@ -48,7 +48,7 @@ function Home() {
                   <div key={[index]} className="links">
                     <Link
                       label={item.text}
-                      href={item.slug}
+                      href={`/tema/${item.slug}`}
                       size={14}
                     />
                   </div>

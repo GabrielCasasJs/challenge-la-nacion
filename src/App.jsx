@@ -4,14 +4,8 @@ import React, {
   useCallback,
 } from 'react';
 
-import {
-  BsList,
-  BsFillChatRightFill,
-  BsFillCalendar2Fill,
-  BsHouseDoorFill,
-} from 'react-icons/bs';
-
 import Home from './screen/Home';
+import HeaderMobile from './components/Header/HeaderMobile';
 
 import './app.css';
 
@@ -34,31 +28,7 @@ function App() {
   return (
     <div className="container__app">
       <Home />
-      <div
-        className="container__item__app"
-        style={{
-          display: scrollY > 10 ? 'none' : 'block',
-        }}
-      >
-        <div>
-          <a href="/">
-            <BsHouseDoorFill size={24} />
-            Home
-          </a>
-          <a href="/">
-            <BsFillCalendar2Fill size={24} />
-            Club LA NACION
-          </a>
-          <a href="/">
-            <BsFillChatRightFill size={24} />
-            Mi Cuenta
-          </a>
-          <a href="/">
-            <BsList size={24} />
-            Menú
-          </a>
-        </div>
-      </div>
+      <HeaderMobile scrollY={scrollY} />
     </div>
   );
 }

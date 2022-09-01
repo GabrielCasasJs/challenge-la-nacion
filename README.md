@@ -28,6 +28,7 @@
   * Header
   > Este es el componente para el Header, adentro del componente utilizo los componentes (Logo, Link, Button, Search), El último componente que nombre en la lista llamado **Search** es un componente hijo del componente Header.
    **COMPONENTE-SEARCH** : Utilizo este componente para realizar la animación del buscador que se encuentra en el header.
+   >> También a su vez el componente Header tiene un componente hijo llamado **HeaderMobile**, que se encarga de mostrar el header de la parte inferior cuando estamos en mobile.
   * Footer
   > Este es el componente Footer, adentro del componente uso el componente **Link** para los enlaces y el componente **Logo** para las imágenes, También utilizo la librería de **React Icons**.
   * Loading
