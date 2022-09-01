@@ -34,7 +34,7 @@
   * Loading
   > Este es un componente de carga, lo decidí agregar adicionalmente para mostrar un loading cuando carga la web.
 
-  2. Screen
-    * Home
-    > La screen Home es la encargada de mostrar los links mas destacados del sitio web, adentro de ella utilizo los componentes (Screen, Header, Footer, Box, Link, ViewCard).
-    > El ultimo componente mencionado llamado **ViewCard** es un componente hijo de la screen de **Home**, es el encargado de renderizar las card del sitio.
+2. Screen
+  * Home
+  > La screen Home es la encargada de mostrar los links mas destacados del sitio web, adentro de ella utilizo los componentes (Screen, Header, Footer, Box, Link, ViewCard).
+  > El ultimo componente mencionado llamado **ViewCard** es un componente hijo de la screen de **Home**, es el encargado de renderizar las card del sitio.
