@@ -36,5 +36,11 @@
 
 2. Screen
   * Home
-  > La screen Home es la encargada de mostrar los links mas destacados del sitio web, adentro de ella utilizo los componentes (Screen, Header, Footer, Box, Link, ViewCard).
-  > El ultimo componente mencionado llamado **ViewCard** es un componente hijo de la screen de **Home**, es el encargado de renderizar las card del sitio.
+  > La screen Home es la encargada de mostrar los links más destacados del sitio web, adentro de ella utilizo los componentes (Screen, Header, Footer, Box, Link, ViewCard).
+  > El último componente mencionado llamado **ViewCard** es un componente hijo de la screen de **Home**, es el encargado de renderizar las card del sitio.
+
+3. Utils
+  > Adentro de **utils** está la lógica para mostrar la fecha en el formato que lo pide el sitio web.
+
+4. Context
+  > En la carpeta **Context** manejo el estado global del sitio, en esta carpeta hago la petición a la **URL**, hago los filtros de los links más repetidos y el state para mostrar los **artículos** en la web.
