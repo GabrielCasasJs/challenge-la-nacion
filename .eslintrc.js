@@ -26,5 +26,6 @@ module.exports = {
     'consistent-return': 'off',
     'react/jsx-no-constructed-context-values': 'off',
     'max-len': 'off',
+    'no-console': 'off',
   },
 };
