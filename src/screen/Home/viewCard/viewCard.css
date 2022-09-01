@@ -18,7 +18,7 @@
 }
 @media (min-width: 1024px) {
   .container__viewcard {
-    justify-content: space-between;
+    justify-content: center;
   }
   .container__item__viewcard {
     max-width: 690px;
@@ -30,8 +30,12 @@
 }
 @media (min-width: 1280px) {
   .container__item__viewcard {
-    max-width: 858px;
+    max-width: 900px;
     width: 100%;
+    justify-content: flex-start;
+  }
+  .container__viewcard {
+    justify-content: space-between;
   }
   .container__item__viewcard__box {
     margin-top: -100px;
