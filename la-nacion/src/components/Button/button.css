@@ -1,0 +1,11 @@
+.button__component {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button__component:hover {
+  background-color: var(--background-color) !important;
+  color: var(--color) !important;
+  opacity: .8;
+  transition: .5s all
+}

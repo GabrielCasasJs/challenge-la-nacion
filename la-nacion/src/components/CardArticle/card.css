@@ -1,0 +1,73 @@
+.container__card {
+  margin: 20px 0px;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+.container__item__card {
+  width: 100%;
+  background: #f2f2f2;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60%;
+}
+.container__item__card > img {
+  display: flex;
+  position: absolute;
+  top: 0;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.container__item__card > img:hover {
+  filter: brightness(110%)
+}
+.item__card__information {
+  margin: 10px;
+}
+.item__card__title {
+  font-size: 14px;
+  font-family: "SuecaSlab", "Georgia", "serif";
+}
+.card__time {
+  color: #5a5a5a;
+  font-size: 14px;
+  margin: 8px 0px;
+}
+@media (min-width: 500px) {
+  .item__card__title {
+    font-size: 18px;
+  }
+}
+@media (min-width: 770px) {
+  .container__item__card {
+    width: 100%;
+    padding-top: 60%;
+  }
+  .container__card{
+    width: 47%;
+    max-height: 40%;
+  }
+  .item__card__information {
+    margin: 10px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .container__card {
+    width: 48%;
+  }
+  .container__item__card {
+    padding-top: 72%;
+  }
+}
+@media (min-width: 1280px) {
+  .container__card {
+    width: 30%;
+  }
+}

@@ -1,0 +1,4 @@
+.container__component__logo > img:hover {
+  opacity: .7;
+  transition: .5s all;
+}
